@@ -4,7 +4,9 @@ The goal is to automate the data translation process to facilitate the creation 
 
 Step of the work:
 
-![unnamed](https://github.com/Cassa97/IFC-python_PhDExam/assets/115898053/08e11d72-c3bc-4c43-a0c1-1d55873bf7f6)
+
+![249261566-08e11d72-c3bc-4c43-a0c1-1d55873bf7f6](https://github.com/Cassa97/IFC-python_PhDExam/assets/115898053/1df25fdd-484c-4ab9-81c8-c2b00b3347ff)
+
 READING EXCEL INPUT FILE
 1. Definition of the Excel worksheet name:
     - The variable name is defined with the name of the Excel worksheet from which to extract the data. In your case, the name of the Excel worksheet is "STRATO DI MURATURA".
@@ -29,6 +31,7 @@ READING EXCEL INPUT FILE
 The entire process combines the data from the specified Excel worksheets into a single DataFrame and exports it to a new Excel file. It also plays a brief alert sound to indicate the completion of the operation.
 
 ![ifc - Copia1](https://github.com/Cassa97/IFC-python_PhDExam/assets/115898053/2fd22211-f672-416e-9573-6c95291cad9d)
+
 CREATION OF OPEN BIM COST ENTITIES
 1. Function Definitions:
     - costvalue(name, description, value): Creates and returns an IfcCostValue object with the specified name, description, and value.
