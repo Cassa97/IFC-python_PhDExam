@@ -8,7 +8,7 @@ Step of the work:
 
 ![249261566-08e11d72-c3bc-4c43-a0c1-1d55873bf7f6](https://github.com/Cassa97/IFC-python_PhDExam/assets/115898053/1df25fdd-484c-4ab9-81c8-c2b00b3347ff)
 
-READING EXCEL INPUT FILE
+# READING EXCEL INPUT FILE
 1. Definition of the Excel worksheet name:
     - The variable name is defined with the name of the Excel worksheet from which to extract the data. In your case, the name of the Excel worksheet is "STRATO DI MURATURA".
 2. Definition of the Excel file path:
@@ -33,7 +33,7 @@ The entire process combines the data from the specified Excel worksheets into a 
 
 ![ifc - Copia1](https://github.com/Cassa97/IFC-python_PhDExam/assets/115898053/2fd22211-f672-416e-9573-6c95291cad9d)
 
-CREATION OF OPEN BIM COST ENTITIES
+# CREATION OF OPEN BIM COST ENTITIES
 1. Function Definitions:
     - costvalue(name, description, value): Creates and returns an IfcCostValue object with the specified name, description, and value.
     - costitem(name, description): Creates and returns an IfcCostItem object with the specified name and description.
@@ -65,3 +65,10 @@ CREATION OF OPEN BIM COST ENTITIES
     - The ifc_file.write() method is used to write the content of the ifc_file object to the IFC file at the specified path.
 
 The entire process is repeated for each row in the DataFrame, creating a new IFC file for each generic wall entity.
+
+
+# RUN CODE
+To proceed to use the loaded script you need to replace the input and output path with your local location where the downloaded files were saved. 
+Also at the end of the script will be overwritten and updated the files contained in the folder "IfcCostItem" with the new IFC files cost and excel files "_ALL DESTR OP-LV_updated" and "Conversion files OBJECT-IFCCLASS"
+
+In case you want to edit the input files you will need to replace/edit the files in the folder "Single Files
