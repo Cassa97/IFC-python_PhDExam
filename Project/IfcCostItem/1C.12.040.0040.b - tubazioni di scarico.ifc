@@ -1,0 +1,13 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION(('ViewDefinition [CoordinationView]'),'2;1');
+FILE_NAME('','2023-06-18T13:45:06',(),(),'IfcOpenShell 0.7.0','IfcOpenShell 0.7.0','');
+FILE_SCHEMA(('IFC4'));
+ENDSEC;
+DATA;
+#1=IFCPIPESEGMENT($,$,'tubazioni di scarico',$,$,$,$,$,$);
+#2=IFCCOSTVALUE('Cost of tubazioni di scarico','Cost of tubazioni di scarico',IFCREAL(15.95),$,$,$,$,$,$,$);
+#3=IFCCOSTITEM('2ONW2w6fXCj8YHH6TpRTfr',$,'tubazioni di scarico','tubazioni di scarico',$,$,$,(#2),$);
+#4=IFCRELASSIGNSTOCONTROL('1Fe6u1J9T6_erU$qyanqsQ',$,'Rel between cost and tubazioni di scarico','Rel between cost and tubazioni di scarico',(#1),$,#3);
+ENDSEC;
+END-ISO-10303-21;
